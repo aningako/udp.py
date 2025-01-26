@@ -15,7 +15,7 @@ def udp_flood(ip, port, duration):
 
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
-    print("udp flood - odix")  # Keep the original print message
+    print("udp flood - aning")  # Keep the original print message
 
     try:
         if port != 0 and duration != 0:
